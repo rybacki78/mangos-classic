@@ -28,8 +28,8 @@ if(BUILD_PLAYERBOTS)
   FetchContent_Declare(
     PlayerBots
     SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/modules/PlayerBots"
-    GIT_REPOSITORY "https://github.com/cmangos/playerbots.git"
-    GIT_TAG "master"
+    GIT_REPOSITORY "https://github.com/rybacki78/playerbots.git"
+    GIT_TAG "personal-serer"
   )
 
   FetchContent_GetProperties(PlayerBots)
